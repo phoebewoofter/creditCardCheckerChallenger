@@ -81,7 +81,7 @@ let idInvalidCardCompanies = nestedArray => {
   return companyList;
 }
 
-// Assign compaies to an array.
+// Assign companies to an array.
 let allCompanies = idInvalidCardCompanies(allInvalidCards);
 
 // Ensure no duplicates of company names appear by pushing the company names to the new array if they're not already included. So, if Visa's first instane is logged, the second will not.
